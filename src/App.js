@@ -7,7 +7,16 @@ const App = () => {
   const handelClick = () => {
     alert("you clicked a message");
   }
+  return(
+    <>
+      <ContactCard />
+      <ContactCard />
+      <ContactCard />
+    </>
+  );
+}
 
+const ContactCard = () => {
   return(
     <div className="contact-card">
       <img src="https://via.placeholder.com/150" alt="profile" />
