@@ -26,7 +26,6 @@ const ContactCard = () => {
         <p>Name: Jenny Han</p>
         <p>Email: Jenny.Han@notreal.com</p>
         {showAge && <p>Age: 25</p>}
-        {/* update */}
       </div>
     </div>
   );
